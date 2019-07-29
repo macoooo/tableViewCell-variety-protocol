@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9712802022EB1628005F9BA2 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9712801F22EB1628005F9BA2 /* add.png */; };
+		9712803922EB20EE005F9BA2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712802522EB20EE005F9BA2 /* JSONModel.m */; };
+		9712803A22EB20EE005F9BA2 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712802722EB20EE005F9BA2 /* JSONModelClassProperty.m */; };
+		9712803B22EB20EE005F9BA2 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712802922EB20EE005F9BA2 /* JSONModelError.m */; };
+		9712803C22EB20EE005F9BA2 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712802D22EB20EE005F9BA2 /* JSONAPI.m */; };
+		9712803D22EB20EE005F9BA2 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712802F22EB20EE005F9BA2 /* JSONHTTPClient.m */; };
+		9712803E22EB20EE005F9BA2 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712803122EB20EE005F9BA2 /* JSONModel+networking.m */; };
+		9712803F22EB20EE005F9BA2 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712803422EB20EE005F9BA2 /* JSONKeyMapper.m */; };
+		9712804022EB20EE005F9BA2 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712803622EB20EE005F9BA2 /* JSONValueTransformer.m */; };
+		9712804122EB20EE005F9BA2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9712803722EB20EE005F9BA2 /* LICENSE */; };
+		9712804222EB20EE005F9BA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9712803822EB20EE005F9BA2 /* README.md */; };
+		9712804522EB21D4005F9BA2 /* PhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712804422EB21D4005F9BA2 /* PhoneModel.m */; };
 		9721321622E9D71400A65D1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721321522E9D71400A65D1C /* AppDelegate.m */; };
 		9721321922E9D71400A65D1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721321822E9D71400A65D1C /* ViewController.m */; };
 		9721321C22E9D71400A65D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9721321A22E9D71400A65D1C /* Main.storyboard */; };
@@ -15,6 +27,11 @@
 		9721322422E9D71600A65D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721322322E9D71600A65D1C /* main.m */; };
 		9721322E22E9D71700A65D1C /* tableViewCell__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721322D22E9D71700A65D1C /* tableViewCell__Tests.m */; };
 		9721323922E9D71700A65D1C /* tableViewCell__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721323822E9D71700A65D1C /* tableViewCell__UITests.m */; };
+		9721324722E9D72F00A65D1C /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9721324622E9D72F00A65D1C /* ServerData.json */; };
+		9721324A22E9D77F00A65D1C /* ProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721324922E9D77F00A65D1C /* ProfileModel.m */; };
+		97301AE322EAFBB700ACC81F /* OneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97301AE222EAFBB700ACC81F /* OneTableViewCell.m */; };
+		97301AE622EAFBC300ACC81F /* TwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97301AE522EAFBC300ACC81F /* TwoTableViewCell.m */; };
+		97CC7AAF22EED5390007F637 /* DoubanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CC7AAE22EED5390007F637 /* DoubanModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9712801F22EB1628005F9BA2 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		9712802422EB20EE005F9BA2 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		9712802522EB20EE005F9BA2 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		9712802622EB20EE005F9BA2 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		9712802722EB20EE005F9BA2 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		9712802822EB20EE005F9BA2 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		9712802922EB20EE005F9BA2 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		9712802A22EB20EE005F9BA2 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		9712802C22EB20EE005F9BA2 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		9712802D22EB20EE005F9BA2 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		9712802E22EB20EE005F9BA2 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		9712802F22EB20EE005F9BA2 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		9712803022EB20EE005F9BA2 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		9712803122EB20EE005F9BA2 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		9712803322EB20EE005F9BA2 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		9712803422EB20EE005F9BA2 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		9712803522EB20EE005F9BA2 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		9712803622EB20EE005F9BA2 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		9712803722EB20EE005F9BA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9712803822EB20EE005F9BA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9712804322EB21D4005F9BA2 /* PhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneModel.h; sourceTree = "<group>"; };
+		9712804422EB21D4005F9BA2 /* PhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneModel.m; sourceTree = "<group>"; };
 		9721321122E9D71400A65D1C /* tableViewCell多样.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableViewCell多样.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9721321422E9D71400A65D1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9721321522E9D71400A65D1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +90,16 @@
 		9721323422E9D71700A65D1C /* tableViewCell多样UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableViewCell多样UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9721323822E9D71700A65D1C /* tableViewCell__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewCell__UITests.m; sourceTree = "<group>"; };
 		9721323A22E9D71700A65D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9721324622E9D72F00A65D1C /* ServerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ServerData.json; sourceTree = "<group>"; };
+		9721324822E9D77F00A65D1C /* ProfileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileModel.h; sourceTree = "<group>"; };
+		9721324922E9D77F00A65D1C /* ProfileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileModel.m; sourceTree = "<group>"; };
+		97301AE022EAE40900ACC81F /* ProfileModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileModelProtocol.h; sourceTree = "<group>"; };
+		97301AE122EAFBB700ACC81F /* OneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneTableViewCell.h; sourceTree = "<group>"; };
+		97301AE222EAFBB700ACC81F /* OneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneTableViewCell.m; sourceTree = "<group>"; };
+		97301AE422EAFBC300ACC81F /* TwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoTableViewCell.h; sourceTree = "<group>"; };
+		97301AE522EAFBC300ACC81F /* TwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewCell.m; sourceTree = "<group>"; };
+		97CC7AAD22EED5390007F637 /* DoubanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubanModel.h; sourceTree = "<group>"; };
+		97CC7AAE22EED5390007F637 /* DoubanModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +127,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9712802122EB20EE005F9BA2 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				9712802222EB20EE005F9BA2 /* JSONModel */,
+				9712803722EB20EE005F9BA2 /* LICENSE */,
+				9712803822EB20EE005F9BA2 /* README.md */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		9712802222EB20EE005F9BA2 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				9712802322EB20EE005F9BA2 /* JSONModel */,
+				9712802A22EB20EE005F9BA2 /* JSONModelLib.h */,
+				9712802B22EB20EE005F9BA2 /* JSONModelNetworking */,
+				9712803222EB20EE005F9BA2 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		9712802322EB20EE005F9BA2 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				9712802422EB20EE005F9BA2 /* JSONModel.h */,
+				9712802522EB20EE005F9BA2 /* JSONModel.m */,
+				9712802622EB20EE005F9BA2 /* JSONModelClassProperty.h */,
+				9712802722EB20EE005F9BA2 /* JSONModelClassProperty.m */,
+				9712802822EB20EE005F9BA2 /* JSONModelError.h */,
+				9712802922EB20EE005F9BA2 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		9712802B22EB20EE005F9BA2 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9712802C22EB20EE005F9BA2 /* JSONAPI.h */,
+				9712802D22EB20EE005F9BA2 /* JSONAPI.m */,
+				9712802E22EB20EE005F9BA2 /* JSONHTTPClient.h */,
+				9712802F22EB20EE005F9BA2 /* JSONHTTPClient.m */,
+				9712803022EB20EE005F9BA2 /* JSONModel+networking.h */,
+				9712803122EB20EE005F9BA2 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		9712803222EB20EE005F9BA2 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				9712803322EB20EE005F9BA2 /* JSONKeyMapper.h */,
+				9712803422EB20EE005F9BA2 /* JSONKeyMapper.m */,
+				9712803522EB20EE005F9BA2 /* JSONValueTransformer.h */,
+				9712803622EB20EE005F9BA2 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
 		9721320822E9D71400A65D1C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +208,7 @@
 		9721321322E9D71400A65D1C /* tableViewCell多样 */ = {
 			isa = PBXGroup;
 			children = (
+				9712802122EB20EE005F9BA2 /* JSONModel */,
 				9721321422E9D71400A65D1C /* AppDelegate.h */,
 				9721321522E9D71400A65D1C /* AppDelegate.m */,
 				9721321722E9D71400A65D1C /* ViewController.h */,
@@ -110,6 +218,19 @@
 				9721321F22E9D71600A65D1C /* LaunchScreen.storyboard */,
 				9721322222E9D71600A65D1C /* Info.plist */,
 				9721322322E9D71600A65D1C /* main.m */,
+				9721324622E9D72F00A65D1C /* ServerData.json */,
+				9721324822E9D77F00A65D1C /* ProfileModel.h */,
+				9721324922E9D77F00A65D1C /* ProfileModel.m */,
+				97301AE022EAE40900ACC81F /* ProfileModelProtocol.h */,
+				97301AE122EAFBB700ACC81F /* OneTableViewCell.h */,
+				97301AE222EAFBB700ACC81F /* OneTableViewCell.m */,
+				97301AE422EAFBC300ACC81F /* TwoTableViewCell.h */,
+				97301AE522EAFBC300ACC81F /* TwoTableViewCell.m */,
+				9712801F22EB1628005F9BA2 /* add.png */,
+				9712804322EB21D4005F9BA2 /* PhoneModel.h */,
+				9712804422EB21D4005F9BA2 /* PhoneModel.m */,
+				97CC7AAD22EED5390007F637 /* DoubanModel.h */,
+				97CC7AAE22EED5390007F637 /* DoubanModel.m */,
 			);
 			path = "tableViewCell多样";
 			sourceTree = "<group>";
@@ -235,6 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9712804122EB20EE005F9BA2 /* LICENSE in Resources */,
+				9712802022EB1628005F9BA2 /* add.png in Resources */,
+				9721324722E9D72F00A65D1C /* ServerData.json in Resources */,
+				9712804222EB20EE005F9BA2 /* README.md in Resources */,
 				9721322122E9D71600A65D1C /* LaunchScreen.storyboard in Resources */,
 				9721321E22E9D71600A65D1C /* Assets.xcassets in Resources */,
 				9721321C22E9D71400A65D1C /* Main.storyboard in Resources */,
@@ -262,9 +387,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9712803922EB20EE005F9BA2 /* JSONModel.m in Sources */,
+				9712803A22EB20EE005F9BA2 /* JSONModelClassProperty.m in Sources */,
+				97CC7AAF22EED5390007F637 /* DoubanModel.m in Sources */,
 				9721321922E9D71400A65D1C /* ViewController.m in Sources */,
+				9712803B22EB20EE005F9BA2 /* JSONModelError.m in Sources */,
 				9721322422E9D71600A65D1C /* main.m in Sources */,
+				9712804522EB21D4005F9BA2 /* PhoneModel.m in Sources */,
+				9712803F22EB20EE005F9BA2 /* JSONKeyMapper.m in Sources */,
 				9721321622E9D71400A65D1C /* AppDelegate.m in Sources */,
+				97301AE322EAFBB700ACC81F /* OneTableViewCell.m in Sources */,
+				9712803E22EB20EE005F9BA2 /* JSONModel+networking.m in Sources */,
+				97301AE622EAFBC300ACC81F /* TwoTableViewCell.m in Sources */,
+				9712803C22EB20EE005F9BA2 /* JSONAPI.m in Sources */,
+				9712804022EB20EE005F9BA2 /* JSONValueTransformer.m in Sources */,
+				9712803D22EB20EE005F9BA2 /* JSONHTTPClient.m in Sources */,
+				9721324A22E9D77F00A65D1C /* ProfileModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
