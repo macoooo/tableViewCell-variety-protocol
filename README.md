@@ -1,0 +1,1 @@
+# tableViewCell-variety-protocol
